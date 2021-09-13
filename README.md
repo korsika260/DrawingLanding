@@ -1,6 +1,6 @@
 #   Учебный проект Яндекс.Практикум "Landing"
 
-[Учебный проект](https://korsika260.github.io/PhotoCourses/index.html)  с целью показать навыки владения адаптивной версткой, HTML и CSS
+[Учебный проект](https://korsika260.github.io/DrawingLanding/)  с целью показать навыки владения адаптивной версткой, HTML и CSS
 
 ## Используемые технологии
 
