@@ -1,0 +1,49 @@
+.backfeed-form__contacts {
+  display: flex;
+  @include clear;
+  margin-top: 100px;
+  padding-top: 15px;
+  padding-right: 20px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  width: 50%;
+  border-radius: 8px;
+  cursor: pointer;
+  background: $textLight;
+  font-family: $fontInter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  border: none;
+
+  &:last-child {
+    margin-left: 40px;
+  }
+
+  &::placeholder {
+    color: $textPlaceholder;
+  }
+}
+
+
+@media screen and #{$tablet} {
+  .backfeed-form__contacts {
+    margin-top: 100px;
+    width: 430px;
+
+    &:last-child {
+      margin-top: 20px;
+      margin-left: 0;
+      justify-content: center;
+    }
+  }
+}
+
+@media screen and #{$mobile} {
+  .backfeed-form__contacts {
+    width: 220px;
+    margin-top: 80px;
+    font-size: 12px;
+  }
+}

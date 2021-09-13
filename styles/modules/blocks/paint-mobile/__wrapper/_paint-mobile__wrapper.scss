@@ -1,0 +1,6 @@
+.paint-mobile__wrapper{
+  @include clear;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}

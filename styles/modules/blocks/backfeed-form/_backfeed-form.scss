@@ -1,0 +1,15 @@
+.backfeed-form {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 0;
+  max-width: 980px;
+  width: 100%;
+}
+
+@media screen and #{$tablet} {
+  .backfeed-form {
+    align-items: center;
+    max-width: 470px;
+  }
+}

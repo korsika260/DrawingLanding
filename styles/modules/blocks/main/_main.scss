@@ -1,0 +1,20 @@
+.main {
+  margin: 0 auto;
+  padding: 0 50px;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media screen and #{$tablet} {
+  .main {
+    padding: 0 20px;
+  }
+}
+
+@media screen and #{$mobile} {
+  .main {
+    padding: 0px;
+  }
+}

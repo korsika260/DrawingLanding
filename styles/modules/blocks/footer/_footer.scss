@@ -1,0 +1,21 @@
+.footer {
+  width: 100%;
+  background-color: $bgDark;
+  border-radius: 20px;
+  height: 470px;
+  color: $textLight;
+  margin-top: 120px;
+}
+
+@media screen and #{$tablet} {
+  .footer {
+    height: 400px;
+    margin-top: 70px;
+  }
+}
+
+@media screen and #{$mobile} {
+  .footer {
+    height: 266px;
+  }
+}

@@ -1,0 +1,5 @@
+.paint {
+  @include clear;
+  display: flex;
+  flex-direction: column;
+}

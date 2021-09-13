@@ -1,0 +1,19 @@
+.header {
+  width: 100%;
+  background-color: $bgDark;
+  border-radius: 20px;
+  height: 640px;
+  color: $textLight;
+}
+
+@media screen and #{$tablet} {
+  .header {
+    height: 602px;
+  }
+}
+
+@media screen and #{$mobile} {
+  .header {
+    height: 898px;
+  }
+}

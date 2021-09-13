@@ -1,0 +1,34 @@
+.backfeed__title {
+  @include clear;
+  margin-top: 60px;
+  max-width: 500px;
+  font-family: $fontInter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 38px;
+  text-align: center;
+  color: $textDark;
+}
+
+@media screen and #{$tablet} {
+  .backfeed__title {
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 31px;
+  }
+}
+
+@media screen and #{$mobile} {
+  .backfeed__title {
+    margin-top: 20px;
+    max-width: 260px;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 31px;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}

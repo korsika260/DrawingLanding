@@ -1,0 +1,36 @@
+.header__button {
+  @include clear;
+  margin-top: 108px;
+  margin-bottom: 130px;
+  width: 240px;
+  height: 54px;
+  background: $textLight;
+  border-radius: 8px;
+  font-family: $fontInter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: $bgDark;
+}
+
+@media screen and #{$tablet} {
+  .header__button {
+    margin-top: 246px;
+  }
+}
+
+@media screen and #{$mobile} {
+  .header__button {
+    width: 260px;
+    height: 48px;
+    margin-top: 44px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
