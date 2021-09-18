@@ -6,7 +6,7 @@ form.addEventListener('submit', event=>{
 
 
 // слайдеры
-new Swiper(".card-mobile__swiper", {
+new Swiper(".card-mobile", {
     spaceBetween: 20,
     wrapperClass: 'card-mobile__wrapper',
     slideClass: 'card-mobile__item',

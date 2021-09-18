@@ -1,6 +1,7 @@
 .backfeed-form {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 40px;
   margin: 0 auto;
   padding: 0;
   max-width: 980px;
@@ -9,7 +10,16 @@
 
 @media screen and #{$tablet} {
   .backfeed-form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
     align-items: center;
     max-width: 470px;
+  }
+}
+
+@media screen and #{$mobile} {
+  .backfeed-form {
+    margin-top: 60px;
   }
 }

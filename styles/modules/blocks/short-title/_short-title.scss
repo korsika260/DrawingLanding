@@ -1,6 +1,6 @@
 .short-title {
   @include clear;
-  padding-top: 140px;
+  padding-top: 144px;
   margin-left: 50px;
   max-width: 1103px;
   font-family: $fontInter;
@@ -16,9 +16,6 @@
     padding-top: 80px;
     margin-left: 30px;
     max-width: 651px;
-    font-family: $fontInter;
-    font-style: normal;
-    font-weight: 600;
     font-size: 33px;
     line-height: 37px;
     color: $textDark;
@@ -27,14 +24,11 @@
 
 @media screen and #{$mobile} {
   .short-title {
-    padding-top: 68px;
+    margin: 0 auto;
+    padding-top: 75px;
     max-width: 260px;
-    font-family: $fontInter;
-    font-style: normal;
-    font-weight: 600;
     font-size: 26px;
     line-height: 31px;
     color: $textDark;
-    margin: 0 auto;
   }
 }

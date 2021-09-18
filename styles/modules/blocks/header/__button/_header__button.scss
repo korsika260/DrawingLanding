@@ -1,6 +1,6 @@
 .header__button {
   @include clear;
-  margin-top: 108px;
+  margin-top: 107px;
   margin-bottom: 130px;
   width: 240px;
   height: 54px;
@@ -13,24 +13,35 @@
   line-height: 24px;
   text-align: center;
   color: $bgDark;
+  border: none;
+  cursor: pointer;
+  transition: 0.7s opacity;
+
+  &:hover {
+    opacity: 0.85;
+  }
 }
 
 @media screen and #{$tablet} {
   .header__button {
-    margin-top: 246px;
+    margin-top: 250px;
+    margin-bottom: 50px;
+    font-size: 14px;
+    height: 48px;
   }
 }
 
 @media screen and #{$mobile} {
   .header__button {
     width: 260px;
-    height: 48px;
-    margin-top: 44px;
+    height: 44px;
+    margin-top: 99px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 0;
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 12px;
   }
 }

@@ -1,16 +1,16 @@
-.post{
+.post {
   padding: 0;
-  margin: 120px auto 0;
+  margin: 115px auto 0;
 }
 
 @media screen and #{$tablet} {
-  .post{
+  .post {
     margin-top: 65px;
   }
 }
 
 @media screen and #{$mobile} {
-  .post{
-    margin-top: 70px;
+  .post {
+    margin-top: 76px;
   }
 }

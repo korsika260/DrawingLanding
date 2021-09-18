@@ -1,7 +1,7 @@
 .header__col {
   @include clear;
   max-width: 650px;
-  margin-top: 30px;
+  padding-top: 40px;
 }
 
 @media screen and #{$mobile} {

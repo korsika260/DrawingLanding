@@ -4,7 +4,8 @@
   width: 260px;
   height: 522px;
   margin: 0 auto;
-  margin-top: 50px;
+  top: 49px;
+  position: relative;
 }
 
 @media screen and #{$mobile} {

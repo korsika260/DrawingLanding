@@ -1,6 +1,6 @@
 .footer__button {
   @include clear;
-  margin-top: 175px;
+  margin-top: 173px;
   width: 470px;
   height: 54px;
   background: $textLight;
@@ -12,23 +12,33 @@
   line-height: 24px;
   text-align: center;
   color: $bgDark;
+  border: none;
+  cursor: pointer;
+  transition: 0.7s opacity;
+
+  &:hover {
+    opacity: 0.85;
+  }
 }
 
 @media screen and #{$tablet} {
   .footer__button {
-    margin-top: 135px;
+    margin-top: 129px;
     width: 240px;
     height: 48px;
+    font-size: 14px;
   }
 }
 
 @media screen and #{$mobile} {
   .footer__button {
     width: 260px;
-    height: 48px;
-    margin: 92px auto 0;
+    height: 44px;
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 12px;
+    margin-top: 95px;
+    margin-bottom: 20px;
   }
 }

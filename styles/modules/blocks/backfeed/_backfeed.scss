@@ -15,8 +15,8 @@
 @media screen and #{$tablet} {
   .backfeed {
     max-width: 708px;
-    max-height: 611px;
-    margin-top: 70px;
+    min-height: 611px;
+    margin-top: 71px;
   }
 }
 

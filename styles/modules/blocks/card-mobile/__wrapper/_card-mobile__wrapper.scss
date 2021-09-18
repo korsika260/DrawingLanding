@@ -1,6 +1,6 @@
 .card-mobile__wrapper {
   @include clear;
-  max-height: 284px;
+  min-height: 284px;
   display: flex;
   flex-direction: row;
   list-style: none;

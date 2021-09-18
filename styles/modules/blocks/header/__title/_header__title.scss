@@ -5,15 +5,25 @@
   font-weight: bold;
   font-size: 60px;
   line-height: 69px;
-  margin-top: 55px;
   margin-left: -3px;
+  margin-top: 90px;
+  max-width: 650px;
+}
+
+@media screen and (max-width: 1200px) {
+  .header__title {
+    max-width: 490px;
+    font-size: 40px;
+    line-height: 49px;
+  }
 }
 
 @media screen and #{$tablet} {
   .header__title {
     font-size: 33px;
     line-height: 37px;
-    margin-top: 47px;
+    margin-top: 80px;
+    margin-left: 1px;
   }
 }
 
@@ -22,5 +32,6 @@
     font-size: 24px;
     line-height: 29px;
     margin-top: 50px;
+    margin-left: 0;
   }
 }

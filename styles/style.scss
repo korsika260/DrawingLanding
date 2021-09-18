@@ -6,7 +6,8 @@
 
 @import "modules/blocks/page/page";
 @import "modules/blocks/header/header";
-@import "modules/blocks/header/__wrapper/header__wrapper";
+@import "modules/blocks/header/__logo/header__logo";
+
 @import "modules/blocks/header/__col/header__col";
 @import "modules/blocks/header/__title/header__title";
 @import "modules/blocks/header/__subtitle/header__subtitle";
@@ -16,7 +17,7 @@
 @import "modules/blocks/main/main";
 @import "modules/blocks/info/info";
 @import "modules/blocks/card/card";
-@import "modules/blocks/card/__list/card__list";
+@import "modules/blocks/card__list/card__list";
 @import "modules/blocks/card/__label/card__label";
 @import "modules/blocks/card/__title/card__title";
 @import "modules/blocks/card/__description/card__description";
@@ -44,12 +45,11 @@
 @import "modules/blocks/backfeed/__title/backfeed__title";
 @import "modules/blocks/backfeed/__paragraph/backfeed__paragraph";
 @import "modules/blocks/backfeed-form/backfeed-form";
-@import "modules/blocks/backfeed-form/__row/backfeed-form__row";
-@import "modules/blocks/backfeed-form/__contacts/backfeed-form__contacts";
-@import "modules/blocks/backfeed-form/__message/backfeed-form__message";
+@import "modules/blocks/backfeed-form/__text/backfeed-form__text";
+@import "modules/blocks/backfeed-form/__text_input/backfeed-form__text_input";
+@import "modules/blocks/backfeed-form/__text_textarea/backfeed-form__text_textarea";
 @import "modules/blocks/backfeed-form/__button/backfeed-form__button";
 @import "modules/blocks/footer/footer";
-@import "modules/blocks/footer/__wrapper/footer__wrapper";
 @import "modules/blocks/footer/__col/footer__col";
 @import "modules/blocks/footer/__title/footer__title";
 @import "modules/blocks/footer/__subtitle/footer__subtitle";
