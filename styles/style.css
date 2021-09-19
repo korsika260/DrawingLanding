@@ -775,9 +775,12 @@
 .backfeed-form__text::placeholder {
   color: rgba(17, 17, 17, 0.3);
 }
-
 .backfeed-form__text:hover {
   border: 1px solid #E4E4E4;
+}
+.backfeed-form__text:focus-visible {
+  border: 1px solid #E4E4E4;
+  outline: none;
 }
 
 @media screen and (max-width: 767px) {

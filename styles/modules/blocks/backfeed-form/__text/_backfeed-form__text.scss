@@ -11,10 +11,15 @@
   &::placeholder {
     color: $textPlaceholder;
   }
-}
 
-.backfeed-form__text:hover {
-  border: 1px solid #E4E4E4;
+  &:hover {
+    border: 1px solid #E4E4E4;
+  }
+
+  &:focus-visible{
+    border: 1px solid #E4E4E4;
+    outline: none;
+  }
 }
 
 @media screen and #{$mobile} {
