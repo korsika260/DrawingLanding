@@ -1,0 +1,12 @@
+.card__list {
+  @include clear;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+@media screen and #{$mobile} {
+  .card__list {
+    display: none;
+  }
+}

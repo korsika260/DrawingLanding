@@ -1,0 +1,13 @@
+.card-mobile {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+}
+
+@media screen and #{$mobile} {
+  .card-mobile {
+    display: flex;
+    width: 300px;
+  }
+}

@@ -1,0 +1,12 @@
+.card-mobile__caption {
+  @include clear;
+  margin-top: 20px;
+  padding-left: 20px;
+  max-width: 57px;
+  font-family: $fontInter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: $textDarkOpacity;
+}

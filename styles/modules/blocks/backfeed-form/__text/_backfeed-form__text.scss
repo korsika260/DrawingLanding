@@ -1,0 +1,29 @@
+.backfeed-form__text {
+  @include clear;
+  font-style: normal;
+  font-weight: normal;
+  font-family: $fontInter;
+  font-size: 16px;
+  line-height: 24px;
+  border: none;
+  box-sizing: border-box;
+
+  &::placeholder {
+    color: $textPlaceholder;
+  }
+
+  &:hover {
+    border: 1px solid #E4E4E4;
+  }
+
+  &:focus-visible{
+    border: 1px solid #E4E4E4;
+    outline: none;
+  }
+}
+
+@media screen and #{$mobile} {
+  .backfeed-form__text {
+    font-size: 12px;
+  }
+}

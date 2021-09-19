@@ -1,0 +1,19 @@
+.card__label {
+  @include clear;
+  font-family: $fontInter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 20px;
+  color: $textDarkOpacity;
+  margin-top: 40px;
+  margin-left: 40px;
+}
+
+@media screen and #{$tablet} {
+  .card__label {
+    font-size: 15px;
+    margin-top: 30px;
+    margin-left: 30px;
+  }
+}

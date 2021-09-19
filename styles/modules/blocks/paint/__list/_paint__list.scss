@@ -1,0 +1,25 @@
+.paint__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  @include clear;
+  margin-left: 170px;
+  margin-right: 170px;
+  margin-top: 120px;
+  list-style: none;
+}
+
+@media screen and #{$tablet} {
+  .paint__list {
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 70px;
+  }
+}
+
+@media screen and #{$mobile}{
+  .paint__list {
+    display: none;
+  }
+}

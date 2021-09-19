@@ -1,0 +1,10 @@
+.info {
+  margin: 0 auto;
+  padding: 60px 0 0;
+}
+
+@media screen and #{$tablet} {
+  .info {
+    padding-top: 70px;
+  }
+}

@@ -1,0 +1,14 @@
+.card-mobile__description {
+  @include clear;
+  margin-top: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+  max-width: 260px;
+  font-family: $fontInter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 20px;
+  color: $textDarkOpacity;
+  text-align: start;
+}

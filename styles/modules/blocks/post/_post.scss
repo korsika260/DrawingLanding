@@ -1,0 +1,16 @@
+.post {
+  padding: 0;
+  margin: 115px auto 0;
+}
+
+@media screen and #{$tablet} {
+  .post {
+    margin-top: 65px;
+  }
+}
+
+@media screen and #{$mobile} {
+  .post {
+    margin-top: 76px;
+  }
+}

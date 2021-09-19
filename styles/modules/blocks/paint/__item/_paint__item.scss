@@ -1,0 +1,14 @@
+.paint__item {
+  @include clear;
+  margin-right: 25px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+@media screen and #{$tablet} {
+  .paint__item {
+    margin-right: 15px;
+  }
+}

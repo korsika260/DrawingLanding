@@ -1,0 +1,13 @@
+.card-mobile__title {
+  @include clear;
+  margin-top: 12px;
+  margin-left: 20px;
+  font-family: $fontInter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 31px;
+  color: $textDark;
+  max-width: 260px;
+  text-align: start;
+}

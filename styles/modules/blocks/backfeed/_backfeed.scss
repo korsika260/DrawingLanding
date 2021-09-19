@@ -1,0 +1,30 @@
+.backfeed {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1100px;
+  width: 100%;
+  padding: 0;
+  margin: 120px auto 0;
+  background: $bgCard;
+  border-radius: 10px;
+}
+
+
+@media screen and #{$tablet} {
+  .backfeed {
+    max-width: 708px;
+    min-height: 611px;
+    margin-top: 71px;
+  }
+}
+
+@media screen and #{$mobile} {
+  .backfeed {
+    max-width: 300px;
+    max-height: 614px;
+    margin: 0 auto;
+    margin-top: 70px;
+  }
+}

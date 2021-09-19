@@ -1,0 +1,11 @@
+.card-mobile__bullet{
+  width: 4px;
+  height: 4px;
+  border-radius: 2px;
+  background-color: $bgBullet;
+  margin-right: 4px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}

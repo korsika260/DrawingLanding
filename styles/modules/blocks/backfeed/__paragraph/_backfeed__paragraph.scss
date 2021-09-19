@@ -1,0 +1,33 @@
+.backfeed__paragraph {
+  @include clear;
+  margin-top: 20px;
+  max-width: 500px;
+  font-family: $fontInter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: $textDarkOpacity;
+}
+
+@media screen and #{$tablet} {
+  .backfeed__paragraph {
+    margin-top: 24px;
+    padding-left: 104px;
+    padding-right: 104px;
+    font-size: 15px;
+    line-height: 20px;
+  }
+}
+
+@media screen and #{$mobile} {
+  .backfeed__paragraph {
+    margin-top: 20px;
+    align-self: center;
+    max-width: 260px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: -2px;
+  }
+}
